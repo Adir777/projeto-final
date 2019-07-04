@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>APP</title>
+    <link href="manifest.json" rel="manifest"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <button class="btnAdd">Add to homescreen</button>
+
+    <audio></audio>
+
+    <div class="container">
+        <h1>My Playlist</h1>
+        <section class="playlist">
+        </section>
+    </div>
+
+    <div class="playing_box">
+        <div class="container">
+            <header>
+                <button class="back"><i class="material-icons">arrow_back</i></button>
+            </header>
+            <section class="playing_card">
+                <img src="">
+                <h3>YOSEMITE</h3>
+                <p>Travis Scott</p>
+                <div class="playing_timeline">
+                    <div class="timeline"><span></span></div>
+                    <div class="counter">
+                        <small class="timeline_init">00:00</small>
+                        <small class="timeline_final">03:20</small>
+                    </div>
+                </div>
+            </section>
+            <section class="playing_buttons">
+                <button id="previous">
+                    <i class="material-icons">skip_previous</i>
+                </button>
+                <button id="playAndPause">
+                    <i class="material-icons">play_circle_filled</i>
+                </button>
+                <button id="next"><i class="material-icons">skip_next</i></button>
+            </section>
+        </div>
+
+    </div>
+
+    <script src="assets/js/app.js"></script>
+
+
+    
+</body>
+</html>
