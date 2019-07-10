@@ -1,0 +1,93 @@
+[
+    {
+        "id": "1",
+        "artist": "Travis Scott",
+        "song": "YOSEMITE",
+        "album": "SICKO MODE",
+        "source": "music/YOSEMITE.mp3",
+        "artwork": [
+            {"src": "assets/img/sicko-96.png", "sizes": "96x96,", "type": "image/png" },
+            {"src": "assets/img/sicko-128.png", "sizes": "128x128,", "type": "image/png" },
+            {"src": "assets/img/sicko-192.png", "sizes": "192x192,", "type": "image/png" },
+            {"src": "assets/img/sicko-256.png", "sizes": "256x256,", "type": "image/png" },
+            {"src": "assets/img/sicko-384.png", "sizes": "384x384,", "type": "image/png" },
+            {"src": "assets/img/sicko-512.png", "sizes": "512x512,", "type": "image/png" }
+
+        ]
+    },
+    {
+        "id": "2",
+        "artist": "Travis Scott",
+        "song": "Who? What!",
+        "album": "SICKO MODE",
+        "source": "music/WHOWHAT.mp3",
+        "artwork": [
+            {"src": "assets/img/sicko-96.png", "sizes": "96x96,", "type": "image/png" },
+            {"src": "assets/img/sicko-128.png", "sizes": "128x128,", "type": "image/png" },
+            {"src": "assets/img/sicko-192.png", "sizes": "192x192,", "type": "image/png" },
+            {"src": "assets/img/sicko-256.png", "sizes": "256x256,", "type": "image/png" },
+            {"src": "assets/img/sicko-384.png", "sizes": "384x384,", "type": "image/png" },
+            {"src": "assets/img/sicko-512.png", "sizes": "512x512,", "type": "image/png" }
+        ]
+    },
+    {
+        "id": "3",
+        "artist": "Bad Bunny",
+        "song": "Quien tu eres",
+        "album": "X100PRE",
+        "source": "music/Quien tu eres.mp3",
+        "artwork": [
+            {"src": "assets/img/badbunny-96.png", "sizes": "96x96,", "type": "image/png" },
+            {"src": "assets/img/badbunny-128.png", "sizes": "128x128,", "type": "image/png" },
+            {"src": "assets/img/badbunny-192.png", "sizes": "192x192,", "type": "image/png" },
+            {"src": "assets/img/badbunny-256.png", "sizes": "256x256,", "type": "image/png" },
+            {"src": "assets/img/badbunny-384.png", "sizes": "384x384,", "type": "image/png" },
+            {"src": "assets/img/badbunny-512.png", "sizes": "512x512,", "type": "image/png" }
+        ]
+    },
+    {
+        "id": "4",
+        "artist": "Farruko, Bad Bunny",
+        "song": "La Cartera",
+        "album": "Gangalee",
+        "source": "music/La Cartera.mp3",
+        "artwork": [
+            {"src": "assets/img/la_cartera-96.png", "sizes": "96x96,", "type": "image/png" },
+            {"src": "assets/img/la_cartera-128.png", "sizes": "128x128,", "type": "image/png" },
+            {"src": "assets/img/la_cartera-192.png", "sizes": "192x192,", "type": "image/png" },
+            {"src": "assets/img/la_cartera-256.png", "sizes": "256x256,", "type": "image/png" },
+            {"src": "assets/img/la_cartera-384.png", "sizes": "384x384,", "type": "image/png" },
+            {"src": "assets/img/la_cartera-512.png", "sizes": "512x512,", "type": "image/png" }
+        ]
+    },
+    {
+        "id": "5",
+        "artist": "YNW Melly",
+        "song": "Murder on my mind",
+        "album": "I am you",
+        "source": "music/Murder On My Mind.mp3",
+        "artwork": [
+            {"src": "assets/img/melly-96.png", "sizes": "96x96,", "type": "image/png" },
+            {"src": "assets/img/melly-128.png", "sizes": "128x128,", "type": "image/png" },
+            {"src": "assets/img/melly-192.png", "sizes": "192x192,", "type": "image/png" },
+            {"src": "assets/img/melly-256.png", "sizes": "256x256,", "type": "image/png" },
+            {"src": "assets/img/melly-384.png", "sizes": "384x384,", "type": "image/png" },
+            {"src": "assets/img/melly-512.png", "sizes": "512x512,", "type": "image/png" }
+        ]
+    },
+    {
+        "id": "6",
+        "artist": "21 Savage, Post Malone",
+        "song": "All my friends",
+        "album": "I Am, I Was",
+        "source": "music/All My Friends.mp3",
+        "artwork": [
+            {"src": "assets/img/21_savage-96.png", "sizes": "96x96,", "type": "image/png" },
+            {"src": "assets/img/21_savage-128.png", "sizes": "128x128,", "type": "image/png" },
+            {"src": "assets/img/21_savage-192.png", "sizes": "192x192,", "type": "image/png" },
+            {"src": "assets/img/21_savage-256.png", "sizes": "256x256,", "type": "image/png" },
+            {"src": "assets/img/21_savage-384.png", "sizes": "384x384,", "type": "image/png" },
+            {"src": "assets/img/21_savage-512.png", "sizes": "512x512,", "type": "image/png" }
+        ]
+    }
+]

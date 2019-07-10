@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    outline: none;
+}
+
+body {
+    background-color: #F0F0F0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.playing_box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #FFF;
+    bottom: -100%;
+    transition: all 0.4s;
+}
+
+@media (max-width: 480px) {
+    .playlist {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .playlist a {
+        width: 100%;
+        background-color: #fff;
+        border-radius: 7px;
+        margin: 5px 0;
+        padding: 5px 20px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .playlist a.playing {
+        border: 2px solid #1377FF;
+    }
+
+    .playlist a img {
+        width: 50px;
+        height: 50px;
+        border-radius: 7px;
+        object-fit: cover;
+        margin-right: 15px;
+    }
+
+    .playlist a .details h3 {
+        font-size: 14px;
+    }
+
+    .playlist a .details p {
+        font-size: 12px;
+        color: #666;
+    }
+
+    .playlist a .details small {
+        font-size: 11px;
+        color: #AAA;
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .playlist a .details small i {
+        font-size: 14px;
+        color: #AAA;
+        margin-right: 5px;
+    }
+
+    .playing_box.active {
+        bottom: 0;
+    }
+
+    .playing_box .container {
+        margin-top: 0;
+        height: 100%;
+        position: relative;
+    }
+
+    .playing_box header .back {
+        background: transparent;
+        outline: none;
+        margin-top: 10px;
+    }
+
+    .playing_box .playing_card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    .playing_box .playing_card img {
+        width: 230px;
+        height: 230px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        -webkit-box-shadow: 0px 0px 29px -14px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0px 0px 29px -14px rgba(0,0,0,0.5);
+        box-shadow: 0px 0px 29px -14px rgba(0,0,0,0.5);
+    }
+
+    .playing_box .playing_card p {
+        font-size: 12px;
+        color: #666;
+    }
+
+    .playing_box .playing_card .playing_timeline {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .playing_box .playing_card .playing_timeline .timeline {
+        width: 100%;
+        height: 5px;
+        border-radius: 5px;
+        position: relative;
+        background-color: #DDD;
+    }
+
+    .playing_box .playing_card .playing_timeline .timeline span {
+        width: 20px;
+        height: 20px;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.3);
+        -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.3);
+        box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.3);
+    }
+
+    .playing_box .playing_card .playing_timeline .counter {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .playing_box .playing_card .playing_timeline small {
+        color: #AAA;
+    }
+
+    .playing_box .playing_buttons {
+        width: 100%;
+        height: 80px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .playing_box .playing_buttons button {
+        background: transparent;
+    }
+
+    .playing_box .playing_buttons button i {
+        font-size: 40px;
+        color: #666;
+    }
+
+    .playing_box .playing_buttons #playAndPause {
+        margin: 0 20px;
+    }
+
+    .playing_box .playing_buttons #playAndPause i {
+        font-size: 60px;
+        color: #1377FF;
+    }
+
+    .btnAdd {
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        color: #fff;
+        background-color: #1377FF;
+        position: fixed;
+        left:0;
+        bottom:0;
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .playing_box .playing_card img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .playing_box .playing_card h3 {
+        font-size: 15px;
+    }
+}
